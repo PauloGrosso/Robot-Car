@@ -4,7 +4,9 @@
 
 ## Components
 **Car Chassis**
+
 **4 motors**
+
 **Bread board**
   * For connecting and organizing all the wires
 
@@ -25,13 +27,12 @@
 ![optional caption text](scheme/bluetooth.jpg)
 
 ## Design Analysis
-![optional caption text](scheme/mechanics1.jpg)
-
+![Figure 1](scheme/mechanics1.jpg)
+The idea for driving the vehicle forward and backward is very simple and straightforward as shown in the figure.
 ![](scheme/mechanics2.jpg)
-
 The general idea for change the direction of the movement is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
 
-
+## Further Improvement
 
 ## Code
 This is the arduino code with extension .ino
