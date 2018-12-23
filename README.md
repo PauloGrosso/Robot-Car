@@ -1,5 +1,7 @@
 # Bluetooth-Controlled Robot Car
 
+## About This Project
+
 ## Components
 1. Car Chassis
 2. 4 motors
@@ -14,14 +16,14 @@ H-Bridge was used
   * Power supply for both Arduino and motor system
 7. Bluetooth Module
 
-## Scheme
+## Schematics
 ![optional caption text](scheme/bluetooth.jpg)
 
-## Analysis
-### Change Direction
+## Design Analysis
+![optional caption text](scheme/mechanics1.jpg)
+
 The general idea for change the direction of the movement is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
 
-### Bluetooth Control
 
 
 ## Code
