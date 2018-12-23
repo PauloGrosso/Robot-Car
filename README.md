@@ -20,7 +20,7 @@ H-Bridge was used
 ![optional caption text](scheme/bluetooth.jpg)
 
 ## Design Analysis
-![optional caption text](scheme/mechanics1.jpg)
+![optional caption text](scheme/mechanics1.png)
 
 The general idea for change the direction of the movement is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
 
