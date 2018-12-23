@@ -3,24 +3,24 @@
 ## About This Project
 
 ## Components
-1. Car Chassis
-2. 4 motors
-3. Bread board
+Car Chassis
+4 motors
+Bread board
   * For connecting and organizing all the wires
-4. Arduino Uno
-5. H-Bridge
+Arduino Uno
+H-Bridge
   * For this project, L298N Motor Drive Controller Board DC Dual
 H-Bridge was used
   * For controlling the motors
-6. 9 V Batteries
+9 V Batteries
   * Power supply for both Arduino and motor system
-7. Bluetooth Module
+Bluetooth Module
 
 ## Schematics
 ![optional caption text](scheme/bluetooth.jpg)
 
 ## Design Analysis
-![optional caption text](scheme/mechanics1.png)
+![optional caption text](scheme/mechanics1.jpg)
 
 The general idea for change the direction of the movement is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
 
