@@ -1,27 +1,27 @@
-# Bluetooth-Controlled Robot Car
+# Bluetooth-Controlled Robot Vehicle
 
 ## About This Project
+This project can be served as a basic guideline for building robots of any kind because it is simple to build and easy to make further improvement. I designed this vehicle from the scratch.
+
 
 ## Components
 **Car Chassis**
 
-**4 motors**
+**4 Motors**
 
-**Bread board**
+**Bread Board**
   * For connecting and organizing all the wires
 
 **Arduino Uno**
 **H-Bridge**
-  * For this project, L298N Motor Drive Controller Board DC Dual
-
-**H-Bridge was used**
+  * For this project, L298N Motor Drive Controller Board DC Dual H-Bridge was used
   * For controlling the motors
 
 **9 V Batteries**
   * Power supply for both Arduino and motor system
 
 **Bluetooth Module**
- * For communication
+ * For communication and control
 
 ## Schematics
 ![optional caption text](scheme/bluetooth.jpg)
@@ -104,7 +104,7 @@ else if (y <= 250){
     delay(50);
     analogWrite(3,0);
     analogWrite(6,v);
-     analogWrite(9,v);
+    analogWrite(9,v);
     analogWrite(10,0);
   }
 
