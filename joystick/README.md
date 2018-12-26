@@ -3,7 +3,7 @@
 ## About This Project
 This is the earlier design of the robot vehicle project using wired joystick control. This project can be served as a guide for controlling other mechanical system such as robot arms.
 
-Please see for more details.
+Please see [here](https://github.com/YiChiMa/robot-car) for more details.
 
 
 ## Components
@@ -14,17 +14,17 @@ Please see for more details.
  * For communication and control
 
 ## Schematics
-![optional caption text](scheme/bluetooth.jpg)
+![optional caption text](scheme/joystick.jpg)
 
 ## Design Analysis
-![Figure 1](scheme/mechanics1.jpg)
-The idea for driving the vehicle forward and backward is very simple and straightforward as shown in the figure.
-![](scheme/mechanics2.jpg)
-The general idea for change the direction of the movement is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
+![Figure 1](scheme/joystickdiagram.jpg)
+The raw output value for both axis is ranged from 0 - 1024. I use map function to map the value to a range of 0 - 255 for driving the motors.
 
 
 ## Code
-This is the arduino code with extension .ino
+This is the arduino code with extension .ino.
+This code is integrated with the vehicle design. Please see [here](https://github.com/YiChiMa/robot-car).
+
 ```
 const int xPin = A0;
 const int yPin = A1;
