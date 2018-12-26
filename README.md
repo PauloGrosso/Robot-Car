@@ -87,3 +87,4 @@ void loop() {
 ```
 
 ## Previous Design Using Joystick
+Before implementing with the bluetooth design, I used joystick for wired control. Please see details [here](https://github.com/YiChiMa/robot-car/tree/master/joystick). 
