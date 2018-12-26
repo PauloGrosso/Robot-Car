@@ -14,10 +14,10 @@ Please see [here](https://github.com/YiChiMa/robot-car) for more details.
  * For communication and control
 
 ## Schematics
-![optional caption text](scheme/joystick.jpg)
+![optional caption text](joystick.jpg)
 
 ## Design Analysis
-![Figure 1](scheme/joystickdiagram.jpg)
+![Figure 1](joystickdiagram.jpg)
 The raw output value for both axis is ranged from 0 - 1024. I use map function to map the value to a range of 0 - 255 for driving the motors.
 
 
