@@ -3,7 +3,7 @@
 ## About This Project
 This is the earlier design of the robot vehicle project using wired joystick control. This project can be served as a guide for controlling other mechanical system such as robot arms.
 
-Please see [here](https://github.com/YiChiMa/robot-car) for more details.
+Please see [here](https://github.com/YiChiMa/robot-car) for the latest design.
 
 
 ## Components

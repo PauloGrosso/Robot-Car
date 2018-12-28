@@ -13,6 +13,7 @@ This project can be served as a basic guideline for building robots of any kind.
   * For connecting and organizing all the wires
 
 **Arduino Uno**
+
 **H-Bridge**
   * For this project, L298N Motor Drive Controller Board DC Dual H-Bridge was used
   * For controlling the motors
@@ -26,11 +27,13 @@ This project can be served as a basic guideline for building robots of any kind.
 ## Schematics
 ![optional caption text](scheme/bluetooth.jpg)
 
+Note: The Motor Control Unit is the H-Bridge.
+
 ## Design Analysis
 ![Figure 1](scheme/mechanics1.jpg)
 The idea for driving the vehicle forward and backward is very simple and straightforward as shown in the figure.
 ![](scheme/mechanics2.jpg)
-The general idea for change the direction of the movement is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
+This project uses differential wheels to change direction. The general idea is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
 
 ## Further Improvement
 One of the most important improvement I will make for this project is the controlling UI on the computer. Right now, the vehicle can only read four commands: forward, backward, turn right, and turn left.
@@ -87,4 +90,4 @@ void loop() {
 ```
 
 ## Previous Design Using Joystick
-Before implementing with the bluetooth design, I used joystick for wired control. Please see details [here](https://github.com/YiChiMa/robot-car/tree/master/joystick). 
+Before implementing with the bluetooth design, I used joystick for wired control. Please see details [here](https://github.com/YiChiMa/robot-car/tree/master/joystick).
