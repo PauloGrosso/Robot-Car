@@ -1,8 +1,9 @@
+**IMPORTANT:** This project is out of date. I will update this page in late June. Thank you.     
+
+
 # Bluetooth-Controlled Robot Vehicle
 
 ## About This Project
-
-This project is out of date. I will update this page in late June. Thank you.     
 This project can be served as a basic guideline for building robots of any kind. It is simple to build and easy to make further improvement.
 
 
