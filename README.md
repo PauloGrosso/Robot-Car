@@ -1,3 +1,6 @@
+**IMPORTANT:** This project is out of date. I will update this page in late June. Thank you.     
+
+
 # Bluetooth-Controlled Robot Vehicle
 
 ## About This Project
