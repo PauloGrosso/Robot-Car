@@ -3,6 +3,7 @@
 ## About This Project
 This project can be served as a basic guideline for building robots of any kind. It is simple to build and easy to make further improvement.
 
+![Photo](scheme/photo.JPG)
 
 ## Components
 **Car Chassis**
@@ -31,7 +32,8 @@ Note: The Motor Control Unit is the H-Bridge.
 
 ## Design Analysis
 ![Figure 1](scheme/mechanics1.jpg)
-The idea for driving the vehicle forward and backward is very simple and straightforward as shown in the figure.
+The idea for driving the vehicle forward and backward is activating all four wheels in the same direction.
+
 ![](scheme/mechanics2.jpg)
 This project uses differential wheels to change direction. The general idea is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
 
