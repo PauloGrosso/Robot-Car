@@ -3,7 +3,7 @@
 # Bluetooth-Controlled Robot Vehicle
 
 ## About This Project
-This project can be served as a basic guideline for building robots of any kind. It is simple to build and easy to make further improvement. The fabrication cost is about $60.
+I built a robot vehicle implementing with the pulse-width modulation, bluetooth communication, and differential wheels as one of my personal projects. This project is intended to investigate the application of differential drives on a robot vehicle. Furthermore, it can be served as a basic guideline for building robots of any kind since it is simple to build and easy to make further improvement. The fabrication cost is about $60.
 
 ![Photo](scheme/photo.JPG)
 
