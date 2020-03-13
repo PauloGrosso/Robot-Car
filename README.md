@@ -3,7 +3,7 @@
 # Bluetooth-Controlled Robot Vehicle
 
 ## About This Project
-This project can be served as a basic guideline for building robots of any kind. It is simple to build and easy to make further improvement. The fabrication cost is about $60. 
+This project can be served as a basic guideline for building robots of any kind. It is simple to build and easy to make further improvement. The fabrication cost is about $60.
 
 ![Photo](scheme/photo.JPG)
 
@@ -38,6 +38,9 @@ The idea for driving the vehicle forward and backward is activating all four whe
 **(Figure 2)**
 
 This project uses differential drive to change direction. Motors on two sides can run at a different speed or in the opposite direction. The difference of the wheel’s spinning speed would cause the chassis to turn. If one side wheels spin in a direction while the wheels on the other side spin in an opposite direction, the chassis will spin along the central axis.
+
+![](scheme/photo_top.jpg)
+**(Top View)**
 
 
 ## Further Improvement
