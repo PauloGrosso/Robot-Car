@@ -39,7 +39,7 @@ The idea for driving the vehicle forward and backward is activating all four whe
 
 This project uses differential drive to change direction. Motors on two sides can run at a different speed or in the opposite direction. The difference of the wheel’s spinning speed would cause the chassis to turn. If one side wheels spin in a direction while the wheels on the other side spin in an opposite direction, the chassis will spin along the central axis.
 
-![](scheme/photo_top.jpg)
+![](scheme/top.png)
 **(Top View)**
 
 
