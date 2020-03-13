@@ -1,50 +1,50 @@
-**IMPORTANT:** This project is out of date. I will update this page in late June. Thank you.     
 
 
 # Bluetooth-Controlled Robot Vehicle
 
 ## About This Project
-This project can be served as a basic guideline for building robots of any kind. It is simple to build and easy to make further improvement.
+This project can be served as a basic guideline for building robots of any kind. It is simple to build and easy to make further improvement. The fabrication cost is about $60. 
 
 ![Photo](scheme/photo.JPG)
 
 ## Components
-**Car Chassis**
+**Car Chassis:**
+I brought two acrylic boards and four wheels on Amazon for quick prototyping purposes.
 
-**4 Motors**
+**4 Motors**: Four motors are brushed gear motors with DC 6 - 9 voltage power supply. These motors are standard and simple to control with PWM.
 
-**Bread Board**
-  * For connecting and organizing all the wires
+**Bread Board**: Breadboard is used to organize all wires.
 
-**Arduino Uno**
+**Arduino Uno**: Arduino Uno is used as the microcontroller.
 
-**H-Bridge**
-  * For this project, L298N Motor Drive Controller Board DC Dual H-Bridge was used
-  * For controlling the motors
+**H-Bridge**: L298N Motor Drive Controller Board DC Dual H-Bridge is used as the intermediate component between the microcontroller and the motors. It allows speed and direction control by reading four PWM signals from the microcontroller.
 
-**9 V Batteries**
-  * Power supply for both Arduino and motor system
+**9 V Batteries**: Two 9-V Batteries are used for powering the microcontroller and the four motors.
 
-**Bluetooth Module**
- * For communication and control
+**Bluetooth Module**: Bluetooth module is used to communicate between the microcontroller and the laptop monitor. The microcontroller reads the command received from the bluetooth module.
 
 ## Schematics
 ![optional caption text](scheme/bluetooth.jpg)
 
-Note: The Motor Control Unit is the H-Bridge.
+Note: The Motor Control Unit is the L298N Motor Drive Controller Board.
 
 ## Design Analysis
 ![Figure 1](scheme/mechanics1.jpg)
+**(Figure 1)**
+
 The idea for driving the vehicle forward and backward is activating all four wheels in the same direction.
 
 ![](scheme/mechanics2.jpg)
-This project uses differential wheels to change direction. The general idea is to make motors spin in different directions. One side wheels spin in a direction while the wheels on the other side spin in an opposite direction. Thus, it produces a rotation on the chassis.
+**(Figure 2)**
+
+This project uses differential drive to change direction. Motors on two sides can run at a different speed or in the opposite direction. The difference of the wheel’s spinning speed would cause the chassis to turn. If one side wheels spin in a direction while the wheels on the other side spin in an opposite direction, the chassis will spin along the central axis.
+
 
 ## Further Improvement
 One of the most important improvement I will make for this project is the controlling UI on the computer. Right now, the vehicle can only read four commands: forward, backward, turn right, and turn left.
 
 ## Code
-This is the arduino code with extension .ino
+This is the Arduino code:
 ```
 int v = 200;
 
