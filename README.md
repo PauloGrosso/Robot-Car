@@ -32,12 +32,12 @@ Note: The Motor Control Unit is the L298N Motor Drive Controller Board.
 ![Figure 1](scheme/mechanics1.jpg)
 **(Figure 1)**
 
-The idea for driving the vehicle forward and backward is activating all four wheels in the same direction.
+Case 1 and 2 are the simplest case for the movement. Four wheels are activated in the same spin direction to drive the vehicle forward and backward.
 
 ![](scheme/mechanics2.jpg)
 **(Figure 2)**
 
-This project uses differential drive to change direction. Motors on two sides can run at a different speed or in the opposite direction. The difference of the wheel’s spinning speed would cause the chassis to turn. If one side wheels spin in a direction while the wheels on the other side spin in an opposite direction, the chassis will spin along the central axis.
+This project uses differential drive to change direction. Motors on two sides can run at a different speed or in the opposite direction. The difference of the wheel’s spinning speed would cause the chassis to turn. According to Fig 2., case 2 and case 3 represent two sides of wheels spin in an opposite direction. As a result, the chassis will spin along the central axis.
 
 ![](scheme/top.png)
 **(Top View)**
