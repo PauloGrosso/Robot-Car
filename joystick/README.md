@@ -26,20 +26,20 @@ This is the arduino code with extension .ino.
 This code is integrated with the vehicle design. Please see [here](https://github.com/YiChiMa/robot-car).
 
 ```
-const int xPin = A0;
+const int xPin = A0;   // constantes 
 const int yPin = A1;
 int x = 0;
-int y = 0;
+int y = 0;            // variaveis
 int v = 0;
 int d = 0;
 
 
-void setup() {
-  Serial.begin(9600);
+void setup() {  // função que não retorna valor
+  Serial.begin(9600); // configuração de taxa de trânsferencia em bits para transmição serial      // inicia a porta serial, configura a taxa de dados para 9600 bps
 }
 
-void loop() {
-  delay(100);
+void loop() {  laço de repetição
+  delay(100);   
   x = analogRead(xPin);
   delay(100);
   y = analogRead(yPin);
